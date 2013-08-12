@@ -2,7 +2,7 @@
 using System.Linq.Expressions;
 using System.Xml.Linq;
 
-namespace CustomXmlSerializer
+namespace CustomXmlGenerator
 {
     public interface IXmlBuilder<T> : IXmlBuilder
     {

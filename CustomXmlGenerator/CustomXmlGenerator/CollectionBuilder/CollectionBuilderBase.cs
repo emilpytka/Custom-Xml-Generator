@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Xml.Linq;
 
-namespace CustomXmlSerializer.CollectionBuider
+namespace CustomXmlGenerator.CollectionBuider
 {
     internal abstract class CollectionBuilderBase
     {

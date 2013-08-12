@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CustomXmlSerializer.Tests.Models
+namespace CustomXmlGenerator.Tests.Models
 {
     class SampleDataGenerator
     {

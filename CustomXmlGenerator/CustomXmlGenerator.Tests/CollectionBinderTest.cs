@@ -1,9 +1,10 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using CustomXmlSerializer.Tests.Models;
+using CustomXmlGenerator.Tests.Models;
 using System.Xml.Linq;
+using XmlCreator.Exceptions;
 
-namespace CustomXmlSerializer.Tests
+namespace CustomXmlGenerator.Tests
 {
     [TestClass]
     public class CollectionBinderTest
@@ -49,6 +50,23 @@ namespace CustomXmlSerializer.Tests
                     new XElement("t", new XAttribute("name", _sampleUser.Teachers[1].FirstName))));
 
             Assert.AreEqual(correctElement.ToString(), generatedElement.ToString());
+        }
+
+        [ExpectedException(typeof(ArgumentException))]
+        [TestMethod]
+        public void WrongCollectionBinding()
+        {
+            var dbBinder = new XmlBuilder<User>("u");
+            dbBinder.BindCollection(e => e, "ts", "t");
+        }
+
+        [ExpectedException(typeof(CollectionParseException))]
+        [TestMethod]
+        public void OtherWrongCollectionBinding()
+        {
+            var dbBinder = new XmlBuilder<User>("u");
+            dbBinder.BindCollection(e => e.Class, "ts", "t");
+            dbBinder.GenerateXml(_sampleUser);
         }
     }
 }

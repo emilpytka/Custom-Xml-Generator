@@ -6,7 +6,7 @@ using System.Text;
 using System.Xml.Linq;
 using XmlCreator.Exceptions;
 
-namespace CustomXmlSerializer.CollectionBuider
+namespace CustomXmlGenerator.CollectionBuider
 {
     internal class CustomCollectionBuilder : CollectionBuilderBase
     {

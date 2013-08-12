@@ -6,8 +6,8 @@
     <ProjectGuid>{3F9DFAF8-214C-47B9-A646-72959BC7FCF6}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CustomXmlSerializer.Tests</RootNamespace>
-    <AssemblyName>CustomXmlSerializer.Tests</AssemblyName>
+    <RootNamespace>CustomXmlGenerator.Tests</RootNamespace>
+    <AssemblyName>CustomXmlGenerator.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -60,9 +60,9 @@
     <Compile Include="CollectionBinderTest.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CustomXmlSerializer\CustomXmlSerializer.csproj">
+    <ProjectReference Include="..\CustomXmlGenerator\CustomXmlGenerator.csproj">
       <Project>{6f10aab5-5da0-4fd4-9ae2-32ff5dcc4b27}</Project>
-      <Name>CustomXmlSerializer</Name>
+      <Name>CustomXmlGenerator</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>

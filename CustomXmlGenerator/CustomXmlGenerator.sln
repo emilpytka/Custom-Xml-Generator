@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.20617.1 PREVIEW
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomXmlSerializer", "CustomXmlSerializer\CustomXmlSerializer.csproj", "{6F10AAB5-5DA0-4FD4-9AE2-32FF5DCC4B27}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomXmlGenerator", "CustomXmlGenerator\CustomXmlGenerator.csproj", "{6F10AAB5-5DA0-4FD4-9AE2-32FF5DCC4B27}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomXmlSerializer.Tests", "CustomXmlSerializer.Tests\CustomXmlSerializer.Tests.csproj", "{3F9DFAF8-214C-47B9-A646-72959BC7FCF6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomXmlGenerator.Tests", "CustomXmlGenerator.Tests\CustomXmlGenerator.Tests.csproj", "{3F9DFAF8-214C-47B9-A646-72959BC7FCF6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

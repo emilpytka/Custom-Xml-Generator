@@ -1,9 +1,9 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using CustomXmlSerializer.Tests.Models;
+using CustomXmlGenerator.Tests.Models;
 using System.Xml.Linq;
 
-namespace CustomXmlSerializer.Tests
+namespace CustomXmlGenerator.Tests
 {
     [TestClass]
     public class TagBinderTest

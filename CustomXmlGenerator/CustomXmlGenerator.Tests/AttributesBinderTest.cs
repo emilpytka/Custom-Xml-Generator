@@ -1,10 +1,10 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using CustomXmlSerializer.Tests.Models;
+using CustomXmlGenerator.Tests.Models;
 using System.Xml.Linq;
-using CustomXmlSerializer;
+using CustomXmlGenerator;
 
-namespace CustomXmlSerializer.Tests
+namespace CustomXmlGenerator.Tests
 {
     [TestClass]
     public class AttributesBinderTest

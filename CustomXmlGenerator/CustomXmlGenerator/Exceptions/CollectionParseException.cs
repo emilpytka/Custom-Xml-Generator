@@ -5,7 +5,7 @@ using System.Text;
 
 namespace XmlCreator.Exceptions
 {
-    internal class CollectionParseException : Exception
+    public class CollectionParseException : Exception
     {
         public CollectionParseException()
         {
